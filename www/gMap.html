@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+  <title>Groby Poznań</title>
+	
+	<!-- Device
+	<script type="text/javascript" charset="utf-8" src="cordova-2.1.0.js"></script> -->
+  <script type="text/javascript" src="cordova-2.1.0.js"></script>
+	
+	<!-- Helper lib -->
+	<script src="assets/jQuery/jquery.js"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script src="assets/gMap/gmaps.js"></script>
+
+  <style>
+    *{
+      margin:0px;
+      padding:0px;
+      border:0px;
+    }
+    
+    html, body, #map{
+      width:100%;
+      height:100%;
+    }
+  </style>
+	
+	<!-- My app engine -->
+  <script>
+    $(document).ready(onReady);
+
+    function onReady(){
+	
+		var map = new GMaps({
+			div: '#map',
+			lat: 52.402936,
+			lng: 16.950896
+		});
+		
+		map.addMarker({
+			lat: 52.402936,
+			lng: 16.950896,
+			title: 'PP'
+		});
+    };
+	
+  </script>
+</head>
+
+<body>
+
+	<!-- Map Window -->
+	<div id="map"></div>
+
+
+</body>
+</html>

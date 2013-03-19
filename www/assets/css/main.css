@@ -1,0 +1,100 @@
+
+*{
+	padding:0px;
+	margin:0px;
+	border:none;
+}
+
+p{
+	margin:20px 0px;
+
+}
+
+/* A */
+a{
+	color:#111;
+	text-decoration: none;
+}
+a.main img{
+	height:64px;
+}
+
+#search a.main img{
+	width:40px;
+	height:40px;
+	margin:3px;
+}
+
+input[type="image"]{
+	height:40px;
+	margin:3px;
+}
+
+#listContainer .name{
+	text-transform:capitalize;
+}
+
+#gmapContainer {
+	height: 85%;
+	width: 100%;
+	background: #69C;
+}
+
+#grob img{
+   height: 50px;
+}
+
+body{
+	background-image:url("../img/bg.png");
+}
+
+/*Head*/
+#head{
+	margin:auto;
+	text-align:center;
+}
+#logo{
+	transition: all 0.5s ease-in 0s;
+}
+
+/* Main */
+div.main{
+}
+div.defaultMainStyle{
+	background-color:white;
+	/*padding:10px;*/
+	border:1px solid #aaa;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	overflow: auto;
+}
+
+#search{
+}
+#search input[type='text']{
+	border:1px solid #aaa;
+	font-size:20px;
+	width:100%;
+}
+
+form{
+	margin:10px;
+}
+
+#listContainer>div{
+	padding:2px;
+	border-bottom:1px solid #ddd;
+}
+
+.loading{
+	text-align:center;
+}
+
+/* List grovs */
+a.graveMap .name {
+	float:left;
+}
+a.graveMap .date {
+	float:left;
+}

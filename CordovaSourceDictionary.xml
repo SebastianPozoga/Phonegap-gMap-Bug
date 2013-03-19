@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is auto-generated, do not edit! -jm -->
+<CordovaSourceDictionary>
+    <FilePath Value="www\assets\css\main.css"/>
+    <FilePath Value="www\assets\gMap\gmaps.js"/>
+    <FilePath Value="www\assets\img\bg.svg"/>
+    <FilePath Value="www\assets\img\bgInkspace.svg"/>
+    <FilePath Value="www\assets\img\car.svg"/>
+    <FilePath Value="www\assets\img\info.svg"/>
+    <FilePath Value="www\assets\img\list.svg"/>
+    <FilePath Value="www\assets\img\logo.svg"/>
+    <FilePath Value="www\assets\img\logoInkspace.svg"/>
+    <FilePath Value="www\assets\img\search.svg"/>
+    <FilePath Value="www\assets\jQuery\jgestures.js"/>
+    <FilePath Value="www\assets\jQuery\jquery.js"/>
+    <FilePath Value="www\assets\js\main.js"/>
+    <FilePath Value="www\assets\js\default.js"/>
+    <FilePath Value="www\assets\js\engine.js"/>
+    <FilePath Value="www\gMap.html"/>
+    <FilePath Value="www\cordova-2.1.0.js"/>
+    <FilePath Value="www\bing.html"/>
+    <FilePath Value="www\index.html"/>
+</CordovaSourceDictionary>
